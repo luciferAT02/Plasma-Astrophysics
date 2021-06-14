@@ -1,0 +1,279 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{nopageno}
+\usepackage{multicol}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\usepackage{indentfirst}
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\usepackage{hyperref}
+\usepackage{nopageno}
+
+\begin{document}
+\pagenumbering{gobble}
+\title{Investigation of electron acoustic (KdV) solitary structures in a weak relativistic plasma at the critical regime}
+\author{Mahiguhappriyaprakash, Swathi. H. M. and S. Chandra }
+\thanks{Mahiguhappriyaprakash is with the Physics Department, Shaheed Rajguru College of Applied Sciences for Women, University of Delhi, Delhi 110096, India \href{mailto:manjulaprakash2002@gmail.com}{\nolinkurl{(e-mail: manjulaprakash2002@gmail.com)}}}
+\thanks{Swathi. H. M is with the Physics Department, Shaheed Rajguru College of Applied Sciences for Women, University of Delhi, Delhi 110096, India
+ \href{mailto:swath.karna567@gmail.com}{\nolinkurl{(e-mail: swath.karna567@gmail.com)}}}
+\thanks{S. Chandra is with Govt. General Degree College at Kushmandi, Dakshin Dinajpur, 733121, India. \href{mailto:swarniv147@gmail.com}{\nolinkurl{(e-mail: swarniv147@gmail.com)}}}
+
+\maketitle
+
+\begin{abstract}
+
+Using the Quantum hydrodynamic (QHD) model Korteweg-de Vries (KdV) type solitary excitations of electron-acoustic waves (EAWs) have been examined in a two-electron populated super dense plasma which exhibits relativistic degeneracy. It is shown that the conditions of the formation and properties of solitary structures are significantly influenced by the relativistic degeneracy parameter.
+\\
+\textit{\textbf{PACS}}---95.30.Qd, 52.27.Ny, 52.35.-g
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+EAW: Electron Acoustic Waves, QHD: Quantum Hydrodynamics, KdV: Korteweg-de Vries
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\IEEEPARstart{E}{}lectron - acoustic waves (EAWs) occur in plasma containing two populations of electrons (cold electrons and hot electrons) and stationary ions. Compared to ion plasma frequency, the two-electron populations are high-frequency electrostatic modes in which the cold electrons provide the inertia and the hot electron pressure provides the restoring force. EAWs play an important in laboratory experiments (\cite{henry1972propagation}, \cite{ditmire1998explosion}) as well as space plasmas (\cite{ang2007ultrashort}, \cite{barnes2003surface}, \cite{feldman1975solar}, \cite{feldman1983electron}). Studies on the nonlinear evolution of EAWs have gained momentum in recent years (\cite{singh2001generation}, \cite{kourakis2004electron}, \cite{bains2011modulational}). However, most of the works on EAWs restrict to classical nonrelativistic plasmas. In this paper, the linear dispersion and solitary structures (KdV) for EAWs in a weak relativistic plasma have been investigated. The matter in some compact astronomical objects like white dwarfs exists in extreme conditions of density. The average inter-Fermion distance is equal to or less than the thermal de Broglie wavelength in such cases and hence quantum degeneracy effects become important. At such extremely high densities, the thermal pressure of electrons becomes negligible compared to the Fermi degeneracy pressure which arises due to implications of Pauli’s exclusion principle. Thus, the electron Fermi energy ($E_{Fe}=\hbar^2 (3\pi^2 n_e )^\frac{3}{2}$) may become comparable to the electron rest mass energy ($E=mc^2$) and the electron speed can approach the speed of light in vacuum ($c\approx3\times10^8 m/s$). So, the matter in such extreme conditions is both degenerate and relativistic. The quantum and relativistic effects are unavoidable in such conditions. A large number of theoretical investigations on the linear and nonlinear propagation of various electrostatic modes in a degenerate quantum hydrodynamic model (\cite{manfredi2005model}, \cite{sahu2006electron}, \cite{sahu2007cylindrical}, \cite{shukla2010nonlinear}) has been made recently. However, only a few works have been reported (\cite{sah2009nonlinear}, \cite{misra2007electron}, \cite{bhowmik2007oblique}) regarding the electron-acoustic waves in degenerate quantum plasmas. All these works consider only non-relativistic cases. But as discussed above, in compact astronomical objects like the white dwarfs that have extremely high densities (as high as $10^{28} cm^{-3}$), the degeneracy can be both quantum and relativistic and must be considered accordingly(\cite{chandra2013electron}). The purpose of the present paper is to investigate the linear and nonlinear properties of EAWs in relativistically degenerate dense quantum plasma consisting of two distinct populations of electrons and stationary ions. The paper is organized in the following manner: in section $\ref{II}$ the basic set of quantum hydrodynamic equations are presented; in section $\ref{III}$ the linear dispersion characteristics are investigated, the Korteweg-de Vries equation is derived by using the standard perturbation techniques and analytical study is carried out for the same; in section $\ref{IV}$ discuss the dependence of soliton properties on different plasma parameters.  The paper ends up with some concluding remarks.
+
+\section{Basic Formulations}\label{II}
+
+A one-dimensional (1D) hydrodynamical model with the propagation of electron-acoustic waves in an unmagnetized three-component completely dense plasma consisting of two groups of relativistic electrons at different temperatures and stationary cold ions forming a uniform neutralizing background is taken into consideration. The thermal pressure in electrons is assumed to be negligible as compared to the degeneracy pressure which arises due to the implications of Pauli’s Exclusion Principle. Following Chandrasekhar, the electron degeneracy pressure in a fully degenerate and relativistic configuration is given as-
+\begin{multline}\label{eq1}
+P_{j}=\left(\frac{\pi{m_{e}}^{2}{c}^{5}}{3{h}^{3}}\right) [R_j({2R_j}^2-3)\sqrt{1+{R_j}^{2}}+3{\sinh}^{-1} R_j]
+\end{multline}
+where j is used to denote the hot ($e_h$) electrons and cold ($e_c$) electrons, $m_e$ is the mass of the electron, $\hbar$ is the Planck’s constant divided by $2\pi$, c is the speed of light,
+\begin{equation}\label{eq2}
+R_j=\frac{pF_j}{m_ec}={\frac{3h^{3}n_j}{8{\pi}m_e^{3}c^{3}}}^{\frac{1}{3}}=R_{j0}{n_j}^{\frac{1}{3}}
+\end{equation}
+where $R_{j0}={(\frac{n_{j0}}{n_0}})^{\frac{1}{3}}$ and $n_0={\frac{8{\pi}{m_e}^3c^2}{3h^3}}\approx 5.9\times{10^{29}cm^{-3}}$
+In the limits of very small and very large values of relativity parameter $R_j$ in ($\ref{eq1}$), we get:
+\begin{equation}\label{eq3}
+P_j=\frac{1}{20}\left(\frac{3}{\pi}\right)^{\frac{2}{3}}\left(\frac{h^2}{m_e}\right){n_j}^{\frac{5}{3}} (for R_j\rightarrow 0)
+\end{equation}
+\begin{equation}\label{eq4}
+P_j=\frac{1}{20}\left(\frac{3}{\pi}\right)^{\frac{1}{3}}hc{n_j}^{\frac{5}{3}} (for R_j \rightarrow \infty)
+\end{equation}
+The set of quantum hydrodynamic equations governing the dynamics of electron acoustic waves of three-component plasma is given by:
+\begin{equation}\label{eq5}
+\frac{\partial n_{h}}{\partial t}+\frac{\partial\left(n_{h} u_{h}\right)}{\partial x}=0
+\end{equation}
+\begin{equation}\label{eq6}
+\frac{\partial n_{c}}{\partial t}+\frac{\partial\left(n_{c} u_{c}\right)}{\partial x}=0
+\end{equation}
+\begin{equation}\label{eq7}
+0=\frac{1}{m_{e}}\left[e \frac{\partial \phi}{\partial x}-\frac{1}{n_{h}} \frac{\partial P_{h}}{\partial x}+\frac{\hbar^{2}}{2 m_{e}} \frac{\partial}{\partial x}\left[\frac{1}{\sqrt{n_{h}}} \frac{\partial^{2} \sqrt{n_{h}}}{\partial x^{2}}\right]\right]
+\end{equation}
+\begin{multline}\label{eq8}
+\left(\frac{\partial}{\partial t}+u_{c} \frac{\partial}{\partial x}\right) u_{c} =\\ \frac{1}{m_{e}}\left[e \frac{\partial \phi}{\partial x}+\frac{\hbar^{2}}{2 m_{e}} \frac{\partial}{\partial x}\left[\frac{1}{\sqrt{n_{h}}} \frac{\partial^{2} \sqrt{n_{h}}}{\partial x^{2}}\right] \right]+\eta_{c} \frac{\partial^{2} u_{c}}{\partial x^{2}}
+\end{multline}
+\begin{equation}\label{eq9}
+\frac{\partial^{2} \phi}{\partial x^{2}}=4 \pi e \left(n_{c}+n_{h}-Z_{i} n_{i}\right)
+\end{equation}
+where $u_c$, $u_h$, $P_h$, $n_h$, $n_c$,$n_i$ are respectively the fluid velocity of cold and hot electrons, degeneracy pressure of hot electrons and number density of hot, cold electrons and positive ions, $\hbar$ is the Planck’s constant divided by $2\pi$ and $Z_i$ is the charge of an ion.
+
+\subsection{Normalization of the governing equations}\label{A}
+
+Now, applying the following normalization scheme to Equations ($\ref{eq5}$) - ($\ref{eq9}$), \\
+$x \rightarrow x \frac{\omega_{c}}{V_{F h}}, \quad t \rightarrow t \omega_{c}, \quad \varphi \rightarrow \varphi \frac{e}{2 k_{b} T_{F h}}, \\
+\quad n_{j} \rightarrow \frac{n_{j}}{n_{j 0}}, \quad u_{j} \rightarrow \frac{u_{j}}{V_{F h}^{2}}, \quad \eta \rightarrow \frac{\omega_{p e}}{V_{F h}^{2}} \eta$\\
+$\omega_{c}=\sqrt{\frac{4 \pi n_{\mathrm{c} 0} \mathrm{e}^{2}}{\mathrm{m}_{\mathrm{e}}}} \text { and } v_{F h}=\sqrt{\frac{2 k_{B} T_{F h}}{m_{e}}}$\\
+we get:
+\begin{equation}\label{eq10}
+\frac{\partial n_{h}}{\partial t}+\frac{\partial\left(n_{h} u_{h}\right)}{\partial x}=0
+\end{equation}
+\begin{equation}\label{eq11}
+\frac{\partial n_{c}}{\partial t}+\frac{\partial\left(n_{c} u_{c}\right)}{\partial x}=0
+\end{equation}
+\begin{equation}\label{eq12}
+0=\frac{\partial \phi}{\partial x}-F_{h} \frac{\partial n_{h}}{\partial x}+\frac{H^{2}}{2} \frac{\partial}{\partial x}\left[\frac{1}{\sqrt{n_{h}}} \frac{\partial^{2} \sqrt{n_{h}}}{\partial x^{2}}\right]
+\end{equation}
+
+\begin{multline}\label{eq13}
+\left(\frac{\partial}{\partial t}+u_{c} \frac{\partial}{\partial x}\right) u_{c}=\\ \frac{\partial \phi}{\partial x}+\frac{H^{2}}{2} \frac{\partial}{\partial x}\left[\frac{1}{\sqrt{n_{h}}} \frac{\partial^{2} \sqrt{n_{h}}}{\partial x^{2}}\right]+\eta_{c} \frac{\partial^{2} u_{c}}{\partial x^{2}}
+\end{multline}
+\begin{equation}\label{eq14}
+\frac{\partial^{2}\phi}{\partial x^{2}}=n_{c}+\frac{n_{h}}{\delta}-\frac{\delta_{i}}{\delta} n_{i}
+\end{equation}
+where $H= \frac{\hbar\omega_{ec}}{2k_B T_{Fh} }$ is a non-dimensional quantum diffraction parameter, $\delta=\frac{n_{co}}{n_{ho}}$  and $\delta_1=\frac{Z_i n_{i0}}{n_{h0}}$. 
+
+\section{Analytical Studies}\label{III}
+
+\subsection{Dispersion Characteristics}\label{1}
+
+To study the nonlinear response of the EAWs, the following perturbation expansion on field quantities $n_c,n_h,u_c,u_h$  and $\phi$ about their equilibrium values is taken into consideration:
+
+\begin{equation}\label{eq15}
+\left[\begin{array}{c}
+n_{h} \\
+n_{c} \\
+u_{h} \\
+u_{c} \\
+\phi
+\end{array}\right]=\left[\begin{array}{c}
+1 \\
+1 \\
+u_{0} \\
+u_{0} \\
+\phi_{0}
+\end{array}\right]+\varepsilon\left[\begin{array}{c}
+n_{h}^{(1)} \\
+n_{c}^{(1)} \\
+u_{h}^{(1)} \\
+u_{c}^{(1)} \\
+\phi^{(1)}
+\end{array}\right]+\varepsilon^{3}\left[\begin{array}{c}
+n_{h}^{(2)} \\
+n_{c}^{(2)} \\
+u_{h}^{(2)} \\
+u_{c}^{(2)} \\
+\phi^{(2)}
+\end{array}\right]+\cdots
+\end{equation}
+Using the perturbation equation ($\ref{eq15}$) in the normalized governing equations (Eqns. $\ref{eq10}$ - $\ref{eq14}$) and then linearizing and considering that the field quantities vary as $e^i(kx-{\omega}t)$ , where k is the wavenumber and $\omega$ is the wave frequency, the following linear dispersion relation is obtained:
+\begin{equation}\label{eq16}
+-1=\frac{1}{k^2\left(\frac{\omega}{k}-u_0\right)\left(2u_0-\frac{\omega}{k}\right)+\frac{H^2k^4}{4}}+{\frac{\frac{1}{\delta}}{k^2F_h+\frac{H^2k^4}{4}}}
+\end{equation}
+The linear dispersion relation for fully degenerate three-component plasma is represented in ($\ref{eq16}$) whose solution is given as:
+\begin{equation}\label{eq17}
+\omega=\frac{\left(3u_0k\pm{\sqrt{9u_0^2k^2-4\left(2u_0^2k^2-\frac{b(1+a)+a}{1+a}\right)}} \right)}{2}
+\end{equation}
+where $b = \frac{H^2 k^4}{4}$ and $a = \delta(k^2 F_h+b)$
+
+\subsection{KdV Equation}\label{2}
+
+To derive the desired KdV equation describing the non-linear behavior of electrostatic plasma waves in a plasma with two populations of electrons (hot and cold) and the stationary ions, we use the standard reductive perturbation technique. At first, we introduce the usual stretching of space and time variables:
+\begin{equation}\label{eq18}
+\xi=\varepsilon(x-v_0t) \ and \ \tau={\varepsilon}^2t
+\end{equation}
+where $\varepsilon$ is the smallness parameter that characterizes the strength of non-linearity, and $v_0$ is the phase velocity of the wave. Equations are written in terms of the stretched coordinates $\xi$ and $\tau$, and the perturbation expressions of  $n_{h}^{(1)}, n_{c}^{(1)}, u_{h}^{(1)}, u_{c}^{(1)}$ and $\phi^{(1)}$ are substituted. Solving the lowest order equations of $\varepsilon$ with the boundary conditions $\phi^{(1)}\rightarrow 0$ and $\mid \xi \mid \rightarrow \infty$ we get:
+\begin{multline}\label{eq19}
+n_{c}^{(1)}=-\frac{\phi^{(1)}}{(v_0-u_0)^2}, \ n_{h}^{(1)}=\frac{\phi^{(1)}}{F_h},\\
+u_{c}^{(1)}=\frac{\phi^{(1)}}{(v_0-u_0)}, \ u_{h}^{(1)}=\frac{\phi^{(1)}(v_0-u_0)}{F_{h}}
+\end{multline}
+Going on for the next higher-order terms in $\varepsilon$ and following the usual method (substitution of all the required relations and eliminating all the higher order terms), we obtain the desired Korteweg-de Vries (KdV) equation as below:
+In the following equation, $\phi=\phi^{(1)}$
+\begin{equation}\label{eq20}
+\frac{\partial \phi}{\partial \tau}+B_1{\frac{\partial^3 \phi}{\partial \tau^3}}=0
+\end{equation}
+This is of the form:
+$\frac{\partial \phi}{\partial \tau}+A_1{\frac{\partial \phi}{\partial \xi}}+B_1{\frac{\partial^3 \phi}{\partial \tau^3}}=0$
+where:
+$A_1=0$ and 
+\begin{equation}\label{eq21}
+B_1=\frac{(v_0-u_0)^3}{2}-\frac{H^2}{8(v_0-u_0)}-\frac{H^2(v_0-u_0)^3}{8\delta F_h}
+\end{equation}
+where $A_1$ is the nonlinear term and $B_1$ is the dispersive term. 
+To find the solution of ($\ref{eq20}$), we transform the independent variables ($\xi \ and \ \tau$) into one single variable $\eta=\xi-M\tau$ where M is the normalized constant speed of the wave frame. Considering the boundary conditions as $\eta\rightarrow \pm \infty$, then $\phi, \phi^{\prime},\phi^{\prime\prime}\rightarrow 0$, we get the following equation:
+\begin{equation}\label{eq22}
+\frac{\partial \phi}{\partial \eta}=\pm g \phi
+\end{equation}
+where $g=\sqrt{\frac{M}{B_1}}$
+Now, while solving (22) we can get two solutions for $g^2>0$ and  $g^2<0$.
+For $g^2>0$, we get:
+\begin{equation}\label{eq23}
+\phi_{\pm}=\phi_0\exp{(\pm g\eta)}
+\end{equation}
+For $g^2<0$, we get:
+\begin{equation}\label{eq24}
+\phi=\phi_0^{\prime}\exp{(\iota g\eta)}
+\end{equation}
+that is, 
+\begin{equation}\label{eq25}
+\phi=\phi_0^{\prime}[\alpha_{1}\cos g\eta + \beta_{1} \sin g\eta]
+\end{equation}
+and,
+\begin{equation}\label{eq26}
+\phi=\phi_0^{\prime}[\alpha_{2}\cos g\eta + \beta_{2} \sin g\eta]
+\end{equation}
+Now using these solutions and substituting the value of B, we can study the parametric dependence of solitary formation and discuss the results with special reference to space and astronomical plasma phenomena. 
+
+\section{Results}\label{IV}
+
+The following graphs Fig. \ref{fig1} - Fig. \ref{fig3} are plotted for ($\ref{eq17}$) with different values of quantum diffraction parameter H,  equilibrium cold to hot electron density $\delta$, and relativity parameter $R_{h0}$ respectively. From the graphs, it is clear that the value of $\omega$ increases with increase in H and $\delta$. Whereas there is no significant change in the value of $\omega$ for increase in value of $R_{h0}$. 
+Now, we are going to study the nonlinear characteristics of the waves by plotting the solutions obtained for our KdV equation ($\phi$ vs $\eta$). Fig. \ref{fig4} is plotted for ($\ref{eq23}$) and ($\ref{eq17}$) where case 1 is for $g^2>0$ and case 2 is for $g^2<0$. 
+\begin{figure}[!t]
+{	\centering
+	\includegraphics[width=3in,angle=0]{Graph1.png}
+	\caption{Dispersion curves for different values of the quantum diffraction parameter H keeping $\delta$ and $R_{h0}$ constant ($\delta=0.3$; $R_{h0}$=1.5)}
+	\label{fig1}
+}
+\end{figure}
+\begin{figure}[!t]
+{	\centering
+	\includegraphics[width=3in,angle=0]{Graph2.png}
+	\caption{Dispersion curves for different values of equilibrium cold to hot electron density $\delta$ keeping H and $R_{h0}$ constant (H=5; $R_{h0}=1.5$)}
+	\label{fig2}
+}
+\end{figure}
+\begin{figure}[!t]
+{	\centering
+	\includegraphics[width=3in,angle=0]{Graph3.png}
+	\caption{Dispersion curves for different values of relativity parameter $R_{h0}$ keeping H and $\delta$ constant (H=5; $\delta=0.3$)}
+	\label{fig3}
+}
+\end{figure}
+\begin{figure}[!t]
+{	\centering
+	\includegraphics[width=3in,angle=0]{Kdvarticle.png}
+	\caption{Solitary profiles obtained from two solutions of the KdV equation (case 1: $g^2>0$ and case 2: $g^2<0$)}
+	\label{fig4}
+}
+\end{figure}
+\\
+Fig. \ref{fig5} represents the solitary profile variation for different values of H for $g^2>0$. Note that the value of $\phi$ increases with increase in H when $\eta<0$. The trend reverses for $\eta>0$ and saturates to a constant value after 10. For variations in $\delta$ and $R_{h0}$, no significant change in $\phi$ is observed.
+Fig. \ref{fig6} represents the solitary profile variation for different values of H for $g^2<0$. Note that the width of the graph increases with increase in H. For variations in $\delta$ and $R_{h0}$, no significant change in $\phi$ is observed.
+\begin{figure}[!t]
+{	\centering
+	\includegraphics[width=3in,angle=0]{KDV1.png}
+	\caption{Solitary profile variation for different values of H keeping $\delta$ and $R_{h0}$ constant (case 1)}
+	\label{fig5}
+}
+\end{figure}
+\begin{figure}[!t]
+{	\centering
+	\includegraphics[width=3in,angle=0]{KdvGraph1.png}
+	\caption{Solitary profile variation for different values of H keeping $\delta$ and $R_{h0}$ constant (case 2)}
+	\label{fig6}
+}
+\end{figure}
+
+\section{Conclusions}\label{V}
+
+Linear dispersion relation for electron-acoustic wave for completely degenerated unmagnetized three components dense plasma made of two different groups of electrons at different temperature and immobile ions has been investigated numerically for the response of linear dispersion relation (Eq.\ref{eq17}) with respect to change in quantum diffraction parameter $(H)$, Relativity parameter ${R_{h0}}$ and equillibrium density ratio of cold to hot electron($\delta$). It is seen that the wave frequency increases with increase in values for quantum diffraction parameter ($H$) and equilibrium cold to hot electron density $(\delta)$ but the wave frequency doesn't show variation for increase in the relativity parameter $R_{h0}$.
+The electron acoustic solitary profile has been investigated numerically for the response of $\phi$ with respect to $\eta$. Two solutions of the KdV equations were obtained and plotted. For the first solution, the value of $\phi$ increases with increase in H when $\eta<0$. The trend reverses for $\eta>0$ and saturates to a constant value after 10. For variations in $\delta$ and $R_{h0}$, no significant change in $\phi$ is observed. Whereas for the second solution, the width of the graph increases with increase in H. For variations in $\delta$ and $R_{h0}$, no significant change in $\phi$ is observed.
+\section{Acknowledgement}\label{VI}
+We would like to express our extreme gratitude to our project coordinator, Dr. Swarniv Chandra, for his constant support and guidance. We would also like to thank our parents and teachers who believed in us. A special thanks to Ms. Swathi.H.M.   
+
+\bibliographystyle{IEEEtran}
+
+\bibliography{references_b2u51}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.0in,clip,keepaspectratio]{Mahiguhappriyaprakash.jpg}}]{Mahiguhappriyaprakash} is currently in second year of B.Sc.(Honours) Physics in Shaheed Rajguru College of Applied Sciences for Women under University of Delhi. Her fields of interest are astrophysics, quantum physics and cosmology. She has been a part of the college team in developing a Scilab toolbox for complex scientific calculations. She has attended numerous workshops on Astrophysics and Cosmology. She has carried out the graphical and analytical part of this paper.
+\end{IEEEbiography}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.0in,clip,keepaspectratio]{Swathi.jpeg}}]{Swathi. H. M} is currently in second year of B.Sc.(Honours) Physics in Shaheed Rajguru College of Applied Sciences for Women under University of Delhi. Her fields of interest are astrophysics and quantum mechanics. She has carried out the mathematical part of this paper. She has attended numerous workshops on Astrophysics and Cosmology.
+\end{IEEEbiography}
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+\vfill
+
+
+\end{document}
